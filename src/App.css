@@ -1,0 +1,42 @@
+body{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.mainapp{
+    width: 300px;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+.todomain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.buttons{
+    width: 100%;
+    background-color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+    border:2px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+.mainapp:hover{
+    background-color: pink;
+    color: white;
+    transition: color 4s,background-color 2s;
+    cursor: pointer;
+}
+.buttons:hover{
+    background-color: wheat;
+    font-weight: bold;
+}
